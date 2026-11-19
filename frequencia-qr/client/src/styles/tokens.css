@@ -1,0 +1,12 @@
+:root {
+  --navy: #142D4D; --navy-2: #0C1D33; --blue: #225BE5; --deep: #153D96; --slate: #63758C; --white: #fff;
+  --bg: #F2F5FB; --soft: #E9F0FF; --line: #E2E9F4;
+  --ok: #12805C; --ok-bg: #E2F5EC; --warn: #B7791F; --warn-bg: #FFF2D9; --bad: #C53030; --bad-bg: #FDEBEB;
+  --r-sm: 12px; --r: 20px; --r-lg: 28px;
+  --sh-1: 0 1px 2px #142D4D0D, 0 12px 32px -20px #142D4D66;
+  --sh-2: 0 28px 56px -28px #153D96B3;
+  --grad: linear-gradient(135deg, #153D96 0%, #225BE5 100%);
+  --grad-dark: linear-gradient(160deg, #142D4D 0%, #153D96 100%);
+  --font: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-d: 'Sora', 'Plus Jakarta Sans', sans-serif;
+}

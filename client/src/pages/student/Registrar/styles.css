@@ -1,0 +1,19 @@
+.steps { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; font-size: 12px; font-weight: 700; color: var(--slate); }
+.steps b { background: var(--soft); color: var(--blue); padding: 7px 14px; border-radius: 99px; } .steps i { width: 32px; height: 1px; background: var(--slate); opacity: .4; }
+.modes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+.mode { background: #fff; border: 1.5px solid var(--line); border-radius: 20px; padding: 16px; text-align: left; cursor: pointer; color: var(--navy); transition: .15s; }
+.mode.on { border-color: var(--blue); background: var(--soft); color: var(--blue); } .mode b { display: block; margin: 12px 0 4px; font-size: 15px; } .mode span { font-size: 12.5px; color: var(--slate); line-height: 1.4; display: block; }
+.scanner { position: relative; border-radius: 28px; overflow: hidden; background: var(--soft); aspect-ratio: 1 / 1.05; display: grid; place-items: center; margin-bottom: 14px; }
+.scanner video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.scan-idle { text-align: center; color: var(--deep); font-weight: 700; font-size: 14px; } .scan-idle span { width: 88px; height: 88px; border-radius: 26px; background: #fff; display: grid; place-items: center; margin: 0 auto 14px; color: var(--blue); box-shadow: var(--sh-1); }
+.scan-badge { position: absolute; top: 16px; left: 16px; background: var(--deep); color: #fff; padding: 7px 14px; border-radius: 99px; font-size: 12px; font-weight: 800; display: flex; gap: 8px; align-items: center; }
+.scan-frame { position: absolute; inset: 20% 14%; pointer-events: none; } .scan-frame i { position: absolute; width: 40px; height: 40px; border: 4px solid #fff; }
+.scan-frame i:nth-child(1) { top: 0; left: 0; border-right: 0; border-bottom: 0; border-radius: 16px 0 0 0; } .scan-frame i:nth-child(2) { top: 0; right: 0; border-left: 0; border-bottom: 0; border-radius: 0 16px 0 0; }
+.scan-frame i:nth-child(3) { bottom: 0; left: 0; border-right: 0; border-top: 0; border-radius: 0 0 0 16px; } .scan-frame i:nth-child(4) { bottom: 0; right: 0; border-left: 0; border-top: 0; border-radius: 0 0 16px 0; }
+.scan-frame u { position: absolute; left: 8%; right: 8%; height: 2px; background: #4C86FF; box-shadow: 0 0 14px #4C86FF; animation: scan 2.2s ease-in-out infinite alternate; } @keyframes scan { from { top: 10%; } to { top: 90%; } }
+.scan-actions { position: absolute; bottom: 16px; left: 16px; right: 16px; display: flex; gap: 10px; }
+.scan-actions button { flex: 1; background: var(--deep); color: #fff; border: 0; border-radius: 14px; padding: 12px; font: 700 14px var(--font); display: flex; gap: 8px; justify-content: center; align-items: center; cursor: pointer; }
+.callout { display: flex; gap: 12px; align-items: flex-start; background: var(--soft); color: var(--deep); border-radius: 18px; padding: 14px 16px; font-size: 14px; margin-bottom: 14px; } .callout svg { margin-top: 2px; }
+.code-input { width: 100%; text-align: center; font-family: var(--font-d); font-size: 36px; font-weight: 700; letter-spacing: .4em; padding: 18px 8px 18px 22px; border: 2px solid var(--blue); border-radius: 18px; color: var(--navy); outline: 0; margin-bottom: 14px; box-shadow: 0 0 0 5px #225BE51F; }
+.badge-big { width: 88px; height: 88px; border-radius: 28px; background: var(--soft); color: var(--blue); display: grid; place-items: center; margin: 6px auto 18px; }
+.link-btn { display: block; margin: 18px auto 0; background: none; border: 0; color: var(--blue); font: 700 14px var(--font); cursor: pointer; }

@@ -1,0 +1,7 @@
+{
+  "name": "frequencia-qr-server",
+  "private": true,
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node src/index.js", "dev": "node --watch src/index.js" },
+  "dependencies": { "bcryptjs": "^2.4.3", "express": "^4.19.2" }
+}

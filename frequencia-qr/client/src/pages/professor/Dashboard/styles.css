@@ -1,0 +1,7 @@
+.banner { background: var(--grad); color: #fff; border-radius: 30px; padding: 34px 38px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; position: relative; overflow: hidden; margin-bottom: 20px; box-shadow: 0 30px 56px -30px var(--deep); }
+.banner::before, .banner::after { content: ''; position: absolute; border-radius: 50%; pointer-events: none; }
+.banner::before { width: 340px; height: 340px; border: 56px solid #ffffff12; right: -90px; top: -150px; } .banner::after { width: 200px; height: 200px; background: #ffffff10; right: 180px; bottom: -120px; }
+.banner > * { position: relative; z-index: 1; } .banner small { color: #D5E2FB; font-weight: 700; font-size: 14px; } .banner h1 { font-size: 36px; margin: 6px 0 8px; color: #fff; } .banner p { color: #D5E2FB; }
+.live-strip { background: var(--navy); color: #fff; border-radius: 22px; padding: 18px 22px; display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
+.live-strip small { display: block; color: #9FB3D1; font-size: 13px; margin-top: 2px; }
+.dash-section { margin-top: 20px; }

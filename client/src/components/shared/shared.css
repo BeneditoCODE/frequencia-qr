@@ -1,0 +1,5 @@
+.aula-hero { background: var(--grad); color: #fff; border-radius: 28px; padding: 24px; margin: 18px 0; position: relative; overflow: hidden; box-shadow: 0 28px 50px -26px var(--deep); }
+.aula-hero::after { content: ''; position: absolute; width: 220px; height: 220px; border-radius: 50%; border: 36px solid #ffffff14; right: -70px; top: -80px; }
+.aula-hero > * { position: relative; z-index: 1; } .aula-hero h2 { font-size: 28px; margin: 16px 0 6px; } .aula-hero p { color: #D5E2FB; margin-bottom: 14px; }
+.aula-hero div { display: flex; gap: 10px; align-items: center; color: #DCE8FC; font-size: 14px; margin-top: 10px; } .aula-hero .strong { color: #fff; font-weight: 700; }
+.aula-selo { display: inline-flex; align-items: center; gap: 7px; background: #fff; color: var(--blue); font-size: 12px; font-weight: 800; padding: 7px 14px; border-radius: 99px; }
