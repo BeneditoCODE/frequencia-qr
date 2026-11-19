@@ -15,7 +15,7 @@ export default function ScanStep({ onCode }) {
   useEffect(() => {
     if (!ativa) return undefined;
     let cancelado = false, timer;
-    (async () => {
+    (async () => {  
       try {
         const s = await navigator.mediaDevices.getUserMedia({ video: { facingMode: facing } });
         if (cancelado) { s.getTracks().forEach(t => t.stop()); return; }
